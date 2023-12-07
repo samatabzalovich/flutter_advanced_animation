@@ -5,6 +5,7 @@ import 'package:flutter_application_advanced/example4/example4.dart';
 import 'package:flutter_application_advanced/example5/example5.dart';
 import 'package:flutter_application_advanced/example6/example6.dart';
 import 'package:flutter_application_advanced/example7/example7.dart';
+import 'package:flutter_application_advanced/example8/example8.dart';
 
 void main() {
   runApp(const App());
@@ -22,7 +23,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home:  Example7(),
+      home:  Example8(),
     );
   }
 }
