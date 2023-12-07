@@ -15,7 +15,6 @@ class _HomePageState extends State<Example5> {
   var _buttonTitle = 'Zoom In';
   var _width = defaultWidth;
   var _curve = Curves.bounceOut;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
